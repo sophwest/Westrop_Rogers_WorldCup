@@ -83,14 +83,14 @@
     width: 150px;
     height: 150px;
     
-    background-image: url('../images/marvelSprites.jpg');
+    background-image: url('../images/flagSprites.jpg');
   }
   
-  #carol { background-position: -150px 0; }
-  #clint { background-position: -300px 0; }
-  #hulk { background-position: -450px 0; }
-  #thor { background-position: -600px 0; }
-  #widow { background-position: -750px 0; }
+  #australia { background-position: -150px 0; }
+  #france { background-position: -300px 0; }
+  #greece { background-position: -450px 0; }
+  #cambodia { background-position: -600px 0; }
+  #germany { background-position: -750px 0; }
   
   .sprite:hover { background-position-y: -150px !important; }
   
@@ -120,7 +120,7 @@
     left: 0;
   
     background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
+    background-image: url('../images/flag-brazil.png');
     background-repeat: no-repeat;
   
     background-size: 55vh; /* 55% of the viewport height */
@@ -129,7 +129,11 @@
     display: none;
   }
   
-  #lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+  #lightbox2 { background-image: url('../images/flag-australia.png'); }
+  #lightbox3 { background-image: url('../images/flag-france.png'); }
+  #lightbox4 { background-image: url('../images/flag-greece.png'); }
+  #lightbox5 { background-image: url('../images/flag-cambodia.png'); }
+  #lightbox6 { background-image: url('../images/flag-germany.png'); }
   
   .lightbox_close {
     position: relative;
