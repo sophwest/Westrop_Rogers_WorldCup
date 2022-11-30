@@ -18,7 +18,7 @@
   
   background-image: url("../images/background.webp");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   }
   
   /* main header rules */
@@ -32,7 +32,7 @@
   #main-logo { width: 220px; padding: 10px 20px; margin-left: auto; }
   
   /* main rules here */
-  #flag-nav { margin-left: 30%; max-width: 60%; }
+  #flag-nav { margin-left: 35%; max-width: 60%; }
   
   .flags { list-style-type: none; }
   
@@ -71,12 +71,14 @@
   article h3  {
     font-size: 2.5em;
     margin-bottom: 14px;
+    margin-left: 6%;
   }
   
   /* select the p tag inside the article tag on the page */
   article p {
     font-size: 1.5em;
     line-height: 1.2;
+    margin-left: 6%;
   }
   
   .sprite {
