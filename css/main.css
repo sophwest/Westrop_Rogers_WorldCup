@@ -126,7 +126,7 @@
     background-repeat: no-repeat;
   
     background-size: 55vh; /* 55% of the viewport height */
-    background-position: 40px bottom;
+    background-position: 40px;
   
     display: none;
   }
@@ -164,7 +164,24 @@
     line-height: 1.6 !important;
     margin-left: 0;
     padding-top: 2em;
+    font-size: 20px;
   }
   
   /* turn the lightbox on using the :target pseudo selector */
   .lightbox:target { display: block; }
+
+  /* checkboxes */
+input[type="checkbox"] { margin-right: 8px; }
+
+input[type="checkbox"]:checked + span::after {
+content: '\26BD';
+position: absolute;
+font-size: 2em;
+
+animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+    }
