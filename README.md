@@ -16,8 +16,6 @@ Our page for the World Cup, done by Lidiya And Sophia. We made a sprite sheet in
 Images credit to Wikipedia
 and provided images
 
-TODO: Write credits
-
 ## License
 
 MIT
